@@ -1,0 +1,47 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background image to the body */
+body {
+  background-image: url('/assets/cover-bg.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+/* Style the main container */
+#handler-container-id {
+  display: grid;
+  grid-template-rows: 15% 65% 20%;
+  height: 100%;
+}
+
+/* Style the color selection section */
+.color-selection {
+  padding: 20px;
+  color: #333; 
+}
+
+/* Style the game handler section */
+.game-hander {
+  background-image: url('/assets/cloud-bg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Style the chat box section */
+.chat-box {
+  padding: 20px;
+  color: #333; 
+}
